@@ -1,0 +1,91 @@
+h1{
+	font-family: 'century gothic';
+	font-size: 24pt;
+	color: #999;
+	margin-left: 1em;
+}
+
+h2{
+	font-family: 'century gothic';
+	font-size: 18pt;
+	color: #999;
+	margin-left: 1em;
+}
+
+p{
+	font-family: 'century gothic';
+	font-size: 14pt;
+}
+
+div{
+	text-align: justify;
+	text-indent: 1.5em;
+}
+
+a{
+	text-decoration: none;
+}
+
+img{
+	float: right;
+	width: 30%;
+	height: 30%;
+}
+
+ol{
+	list-style: none;
+	counter-reset: li;
+}
+
+li:before{
+	counter-increment: li;
+	content: counters(li,".")". ";
+}
+
+.back{
+	font-size: 13pt;
+	color: #808080;
+	font-family: 'century gothic', Arial;
+}
+
+.back:visited{
+	color: #800000;
+}
+
+ol a{
+	color: #1153c9;
+}
+
+ol a:hover{
+	text-decoration: underline;
+}
+
+.menu{
+	font-family: 'century gothic', Arial;
+	font-size: 14pt;
+}
+
+.content{
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+#main_page{
+	background-color: #F0F0F0;
+}
+
+#page1{
+	background-color: #FFFFCC;
+}
+
+#page2{
+	background-color: #FFCCCC;
+}
+
+#page3{
+	background-color: #CCFFCC;
+}
+
+#page4{
+	background-color: #CCCCFF;
+}

@@ -1,0 +1,41 @@
+body {
+    background-color: #a5fff8;
+    max-width: 1280px;
+    margin: 0 auto;
+   }
+
+h2 {
+    font-size: 14pt;  
+    font-family: Times;
+    color: #000000;  
+   }
+
+p {
+    font-size: 14pt;  
+    color: #000000;  
+  
+
+   }
+
+h2{
+  font-family:  Impact;
+  color: #003a75;
+}
+
+.par {
+	text-align: justify;
+	
+   }
+
+#pic {
+	margin: 10; 
+	width: 300;
+	float: right;
+	
+   }
+
+
+#content {
+	width: 100%;
+	margin: 10px;
+}

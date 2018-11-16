@@ -1,0 +1,103 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+body{
+	background-color: rgb(238,238,238);
+}
+
+header{
+	display: flex;
+	padding: 35px;
+
+}
+
+h1{
+	font-weight: normal;
+	color: rgb(49,125,174);
+}
+
+.header_text{
+	margin-left: 75px;
+}
+
+.logo{
+	width: 67px;
+	height: 25px;
+	background: url("product-common-sprite.png");
+	background-repeat: no-repeat;
+	position: 0 0;
+}
+
+.menu{
+	margin-left: 20px;
+	border: 1px solid lightgrey;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	width: 150px;
+}
+
+.menu ul{
+	list-style-type: none;
+
+}
+
+.header{
+	padding: 5px 0 5px 0;
+	background-color: rgb(49,125,174);
+	color: white;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.last{
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.btn{
+	padding: 5px 0 5px 0;
+	background-color: white;
+	width: 150px;
+	color: grey;
+}
+
+.header span{
+	margin-left: 3px;
+}
+
+.btn span{
+	margin-left: 5px;
+}
+
+.btn:hover{
+	cursor: pointer;
+	background-color: lightgrey;
+}
+
+.margintop{
+	margin-top: 15px;
+}
+
+.blue{
+	color: rgb(49,125,174);
+}
+
+article{
+	border-radius: 5px;
+	border: 1px solid lightgrey;
+	margin-left: 30px;
+	padding: 10px;
+	background-color: white;
+	width: 800px;
+}
+
+
+main{
+	display: flex;
+}

@@ -1,0 +1,10 @@
+body{ 
+	background-image:url('images/fon.jpg'); 
+}
+.main, .row, .column{ 
+	display: flex; 
+	justify-content: center;
+}
+.column{ 
+	flex-direction: column; 
+}
