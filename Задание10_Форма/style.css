@@ -44,7 +44,6 @@ h1{
 
 .menu ul{
 	list-style-type: none;
-
 }
 
 .header{
@@ -94,10 +93,62 @@ article{
 	margin-left: 30px;
 	padding: 10px;
 	background-color: white;
-	width: 800px;
+	width: 600px;
 }
 
 
 main{
 	display: flex;
+}
+
+fieldset{
+	padding: 15px;
+	border: 1px solid #8c1c1a;
+	border-radius: 5px;
+}
+
+.block {
+    display: inline-block;
+    margin: 0 20px;
+}
+ 
+input,
+label,select {
+    display: block;
+}
+
+label{
+	margin-top: 3px;
+	margin-bottom: 5px;
+}
+
+.pls_txt{
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+legend{
+	color: grey;
+}
+
+.inline{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 20px;
+}
+
+.inline2{
+	display: flex;
+}
+
+.pet{
+ 	margin: 0 5px;
+ }
+
+textarea{
+	height: 70px;
+}
+
+.lbtn{
+	margin: 5px;
 }
