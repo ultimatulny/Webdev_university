@@ -15,7 +15,7 @@ button:hover{
 }
 
 .right_button{
-	margin: 0 10px;
+	margin: 0 25px;
 	color: grey;
 	display: flex;
 	background: none;
@@ -32,6 +32,10 @@ button:hover{
 }
 
 header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: white;
 	height: 50px;
 	-webkit-box-shadow: 0px 0px 19px 1px rgba(158,158,158,1);
 	-moz-box-shadow: 0px 0px 19px 1px rgba(158,158,158,1);
@@ -87,6 +91,145 @@ header{
 
 .right_header p{
 	margin-top: 8px;
-	margin-left: 5px;
+	margin-left: 15px;
 }
 
+.main{
+	margin: 0 auto;
+	max-width: 1280px;
+	margin-top: 60px;
+}
+
+h1{
+	text-transform: uppercase;
+	font-family: Arial;
+	font-size: 28px;
+}
+
+.kernel{
+	width: 400px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.kernel a{
+	color: grey;
+	font-family: Arial;
+	font-size: 12px;
+	border-bottom: 1px grey solid;
+}
+
+.kernel a:hover{
+	color: orange;
+	border-bottom: 1px orange solid;
+}
+
+.product{
+	border: 1px lightgrey solid;
+	width: 810px; 
+	height: 250px;
+	display: flex;
+}
+
+.col{
+	width: 270px; /* 810 / 3 = 270 */
+}
+
+.image_col{
+	display: flex;
+	align-items: center;
+}
+
+.col img{
+	width: 270px;
+}
+
+.stars img{
+	width: 15px;
+	height: 15px;
+}
+
+.stars{
+	height: 40px;
+	display: flex;
+	align-items: center;
+}
+
+.product_name{
+	font-family: Verdana;
+	font-size: 14px;
+	border-bottom: 1px orange solid;
+	cursor: pointer;
+}
+
+.product_name:hover{
+	border-bottom: 2px orange solid;
+}
+
+.description{
+	margin-top: 7px;
+	font-family: Verdana;
+	font-size: 12px;
+}
+.description_text{
+	margin: 15px 0;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.price{
+	margin-top: 40px;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 24px;
+}
+
+.rub{
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.buy{
+	margin-left: 50px;
+}
+
+.buy_btn{
+	margin-top: 5px;
+	padding: 10px 35px;
+	color: white;
+	border-radius: 5px;
+
+}
+
+.send_info{
+	margin-top: 10px;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.nofirst{
+	margin-top: -1px;
+}
+
+footer{
+	background-color: #dfe4e8;
+	height: 500px;
+	margin-top: 150px;
+}
+
+.free{
+	font-family: Arial;
+	background-color: rgb(169,207,70);
+	position: relative;
+	right: 190px;
+	top: 90px;
+	font-size: 14px;
+	text-align: center;
+	padding: 5px;
+}
+
+.free p{
+	margin: 0 10px;
+}
