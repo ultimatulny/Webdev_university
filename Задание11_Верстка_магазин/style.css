@@ -14,6 +14,24 @@ button:hover{
 	background: linear-gradient(180deg, #f25e2e,#f7941e);
 }
 
+ul{
+	list-style-type: none;
+	font-family: 'PT Sans', sans-serif;
+}
+
+a:visited{
+	color: black;
+}
+
+a:active{
+	color: black;
+}
+
+a:hover{
+	color: orange;
+	border-bottom: 1px solid orange;
+}
+
 .right_button{
 	margin: 0 25px;
 	color: grey;
@@ -23,7 +41,7 @@ button:hover{
 
 .right_button:hover{
 	background: none;
-	text-decoration: underline;
+	border-bottom: 2px solid orange;
 }
 
 :active, :hover, :focus {
@@ -233,4 +251,59 @@ footer{
 
 .free p{
 	margin: 0 10px;
+}
+
+.flex_footer{
+	display: flex;
+}
+
+h3{
+	font-family: 'PT Sans', sans-serif;
+	color: #8295a3;
+	font-size: 22px;
+}
+
+.fcol{
+	margin-top: 50px;
+	width: 200px;
+}
+
+.fcol ul li{
+	margin: 5px 0;
+}
+
+li a{
+	font-size: 14px;
+}
+
+.services{
+	display: flex;
+	flex-wrap: wrap;
+	width: 190px;
+	height: 200px;
+}
+
+.pay{
+	margin: 5px;
+	background-color: red;
+	width: 50px;
+	height: 50px;
+}
+
+.visa{ background: url(img/visa.png); }
+.ymoney{ background: url(img/yandex.png); }
+.qiwi{ background: url(img/qiwi.png); }
+.nal{ background: url(img/nal.png); }
+.bank{ background: url(img/bank.png); }
+.wm{ background: url(img/wm.png); }
+.btc{ background: url(img/btc.png); }
+.eth{ background: url(img/eth.png); }
+.gram{ background: url(img/gram.png); }
+
+.bottom{
+	width: 500px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 160px;
+	font-family: 'PT Sans', sans-serif;
 }
