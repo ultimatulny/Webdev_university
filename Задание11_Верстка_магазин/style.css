@@ -151,7 +151,7 @@ h1{
 }
 
 .col{
-	width: 270px; /* 810 / 3 = 270 */
+	width: 270px;
 }
 
 .image_col{
@@ -219,7 +219,6 @@ h1{
 	padding: 10px 35px;
 	color: white;
 	border-radius: 5px;
-
 }
 
 .send_info{
@@ -306,4 +305,134 @@ li a{
 	margin: 0 auto;
 	margin-top: 160px;
 	font-family: 'PT Sans', sans-serif;
+}
+
+.kernel_tovar a, .kernel_tovar span{
+	font-family: 'PT Sans', sans-serif;
+	color: #2f9cc6;
+}
+
+.kernel_tovar a{
+	border-bottom: 1px solid #2f9cc6;
+}
+
+.kernel_tovar a:hover{
+	color: orange;
+	border-bottom: 1px solid orange;
+}
+
+.main_t{
+	margin-top: 70px;
+}
+
+.name_tov{
+	margin-top: 30px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.articul{
+	font-family: 'PT Sans', sans-serif;
+	color: grey;
+	font-size: 13px;
+}
+
+.look_tovar{
+	display: flex;
+	height: 350px;
+	width: 830px;
+}
+
+.mini{
+	width: 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.t_img{
+	width: 500px;
+	display: flex;
+	align-content: center;
+	align-items: center;
+}
+
+.t_img img{
+	width: 100%;
+}
+
+.b_buy{
+	width: 250px;
+}
+
+.mini div img{
+	width: 100%;
+}
+
+.look_tovar .mini div .playpng{
+	margin: 0 auto;
+	width: 30px;
+}
+
+.mini div{
+	display: flex;
+	align-content: center;
+	align-items: center;
+	cursor: pointer;
+	margin: 1px;
+	height: 75px;
+	width: 75px;
+}
+
+.column_flex{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.column_flex p{
+	font-family: 'PT Sans', sans-serif;
+}
+
+.mini div:hover{
+	background-color: rgba(196, 196, 196, 0.4);
+	border-radius: 5px;
+}
+
+.buy_block{
+	border: 1px solid lightgrey;
+	height: 280px;
+}
+
+.buy_block .price{
+	margin-left: 20px;
+	font-size: 28px;
+}
+
+.btns_buy{
+	width: 230px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.btns_buy button{
+	color: white;
+	font-family: 'PT Sans', sans-serif;
+	padding: 15px 0;
+	width: 100%;
+	font-size: 18px;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+.btns_buy .buy_credit{
+	font-size: 11px;
+	padding: 17px 0;	
+	width: 100%;
+	margin-top: 10px;
+	background: linear-gradient(0deg, #7B8586,#7B8586);
+}
+
+.btns_buy .buy_credit:hover{
+	background: linear-gradient(0deg, #AAAFB3,#AAAFB3);
 }
