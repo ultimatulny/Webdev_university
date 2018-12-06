@@ -241,11 +241,11 @@ footer{
 	font-family: Arial;
 	background-color: rgb(169,207,70);
 	position: relative;
-	right: 190px;
-	top: 90px;
+	right: 230px;
+	top: 85px;
 	font-size: 14px;
 	text-align: center;
-	padding: 5px;
+	padding: 5px 10px;
 }
 
 .free p{
@@ -273,6 +273,7 @@ h3{
 
 li a{
 	font-size: 14px;
+	color: #6b9aa5;
 }
 
 .services{
@@ -441,3 +442,51 @@ li a{
 	width: 830px;
 	background-color: lightgrey;
 }
+
+.about_product{
+	display: flex;
+	justify-content: space-between;
+	width: 1000px;
+	margin-top: 30px;
+}
+
+h4{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+
+}
+
+table{
+	margin-top: 10px;
+	border-spacing: 0px 10px;
+}
+
+table tbody tr td{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+}
+
+.dots{
+    overflow: hidden;
+}
+
+.dots:after {  content:'.....................................................................';
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.dots span:first-of-type {
+  float:left;
+  margin-right: 10px;
+}
+
+.dots span:last-of-type {
+  float:right;
+  margin-left: 10px;
+}
+
+.dots:last-of-type{
+  margin-left: 20px;
+}
+
