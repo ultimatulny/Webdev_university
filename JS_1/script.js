@@ -11,7 +11,8 @@ function vyvod()
 
 		if(fail){
 			alert(fail);
-		} else{
+			return false;
+		}
 
 		if(document.anketa.pokupatel[0].checked){
 			pokupatel = "Услугами пользуется давно";
@@ -68,5 +69,4 @@ function vyvod()
 		document.write("<span>" + txt + "</span>");
 		document.write("</h3>");  
 		document.write("</div>");
-	}
 }

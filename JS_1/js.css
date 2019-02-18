@@ -19,3 +19,13 @@ div{
 	padding: 20px; 
 	font-family: Arial;
 }
+
+.red{
+	color: red;
+	font-weight: bold;
+}
+
+.blue{
+	color: blue;
+	font-style: italic;
+}

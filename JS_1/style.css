@@ -38,3 +38,18 @@ input{
 .center{
 	margin: 25px 0 0 50px;
 }
+
+.message{
+	width: 520px;
+	height: 160px;
+}
+
+.h100, .centr{
+	height: 100%;
+}
+
+.centr{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
