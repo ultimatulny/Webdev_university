@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+body{
+	background-color: lightgrey;
+}
+
+.txt{
+	width: 400px;
+	height: 150px;
+}
+
+.first{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.iam{
+	margin-left: 20px;
+}
+
+.poz{
+	width: 400px;
+	height: 100px;
+}
+
+.blue{
+	color: blue;
+}
+
+input{
+	margin: 5px 0;
+}
+
+.center{
+	margin: 25px 0 0 50px;
+}

@@ -1,0 +1,59 @@
+<html>
+<head>
+	<title>Документ HTML</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>	
+	<script language="JavaScript" src="script.js"></script>
+	<div class="center">
+		<h1>Анкета покупателя</h1><br>
+		<form name="anketa" class="first">
+
+			1. Фамилия: <input type="text" name="Surname">
+			<br>
+
+			2. Имя: <input type="text" name="Name">
+			<br>
+
+			3. Возраст 
+			<select name="age">
+				<option value="До 18">До 18</option>
+				<option value="От 18 до 45">от 18 до 45</option>
+				<option value="От 45">от 45</option>											
+			</select>
+			<br>
+
+			4. Я:
+			<br>
+			<input type="radio" name="pokupatel" value="old" class="iam">Зарегистрированный покупатель<br>
+			<input type="radio" name="pokupatel" value="new" class="iam">Впервые пользуюсь услугами магазина<p>
+			<br>
+
+			5. Меня интересуют:
+			<br>
+			<div class="iam">
+				<input type="checkbox" name="interest" value="Книги">Книги <br>
+				<input type="checkbox" name="interest" value="Музыка на CD">Музыка на CD <br>
+				<input type="checkbox" name="interest" value="Программное обеспечение">Программное обеспечение <br>
+				<input type="checkbox" name="interest" value="Канцелярские товары">Канцелярские товары <br>
+				<input type="checkbox" name="interest" value="Сувениры">Сувениры <br>
+				Другое: <input type="text" name="other_interest">
+			</div>	
+			<br>
+
+			6.Мои пожелания и рекомендации:
+			<br>
+			<textarea col=50 row=30 name="pozelania" class="poz"></textarea>
+			<br>
+			
+			<input type=button onClick="vyvod()" value="Отправить анкету">
+			<input type=button onClick="reload()" value="Обновить анкету">
+		</form>
+	</div>
+	<script type="text/javascript">
+		function reload(){
+			document.anketa.reset();
+		}
+	</script>
+</body>
+</html>
