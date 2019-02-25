@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Поездка на дачу</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<script language="JavaScript" src="script.js"></script>
+
+	<div class="travel">
+		<h1>Поездка на дачу</h1><br>
+		<hr>
+		<form name="main">
+			<div class="line">
+				<div class="text">Расстояние (км.):</div>
+				<input type="text" name="km" onkeyup="check();" id="input1">
+			</div>
+			<div class="line">
+				<div class="text">Цена бензина (руб./литр):</div>
+				<input type="text" name="oilprice" onkeyup="check();" id="input2">
+			</div>
+			<div class="line">
+				<div class="text">Потребление (на 100 км.):</div>
+				<input type="text" name="potreblenie" onkeyup="check();" id="input3">
+			</div>
+			<div class="line">
+				<div class="text">Стоимость</div>
+				<input type="text" name="totalprice" value="" disabled>
+			</div>
+			<div class="line">
+				<div class="text"></div>
+				<div class="btn_block">
+					<input type="button" onClick="oil_price()" value="Вычислить!" id="btn" disabled="disabled">
+				</div>
+			</div>
+
+		</form>
+		<hr>
+	</div>
+
+</body>
+</html>
