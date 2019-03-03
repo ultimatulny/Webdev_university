@@ -9,8 +9,10 @@ function paper_f(){
 
 	if(format == "") flag = "Укажите формат!";
 		if (paper == "") flag = "Укажите бумагу!"; 
-			if(kolvo == "") flag = "Укажите кол-во!";
+			if(kolvo == "" || kolvo == " ") flag = "Укажите кол-во!";
 			if(isNaN(kolvo)) flag = "Укажите число, а не свои символы!";
+			if(kolvo <= 0) flag = "Введите число больше нуля!";
+			if (kolvo > 9999) flag = "б%#*ь";
 	
 	if(flag){
 		alert(flag);
