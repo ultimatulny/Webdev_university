@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Lab3</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="main">
+		<h1>Печать фотографий</h1>
+		<form name="paperprice">
+			<div class="flex">
+				<div class="left">
+					<fieldset class="f_left">
+						<legend class="l_text">Формат</legend>
+						<input type="radio" name="format" class="style_radio" value="9x12" checked> 9x12 <br>
+						<input type="radio" name="format" class="style_radio" value="10x15"> 10x15 <br>
+						<input type="radio" name="format" class="style_radio" value="18x24"> 18x24 
+					</fieldset>
+				<div class="copies">
+					<span class="text">Количество</span>
+					<input type="text" class="copies_input" name="copies_input">
+				</div>
+				</div>
+				<div class="right">
+					<fieldset class="f_right">
+						<legend class="l_text">Бумага</legend>
+						<input type="radio" name="paper" class="style_radio" value="матовая" checked> Матовая <br>
+						<input type="radio" name="paper" class="style_radio" value="глянцевая"> Глянцевая 
+					</fieldset>
+					<input type="button" value="Вычислить" class="btn_total" onclick="paper_f()">
+				</div>
+			</div>
+			<div class="output">
+				<textarea name="output" placeholder="Тут будет результат!" id="out_area" cols="60" rows="5" disabled></textarea>
+			</div>
+		</form>
+		<br>	
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+html,body{
+	height: 100%;
+}
+
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #EDEEF0;	
+}
+
+.main{
+	width: 550px;
+	background-color: #F0F0F0;
+	border: 1px solid grey;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+h1{
+	text-align: center;
+	color: #A7BEC7;
+	font-family: Tahoma;	
+}
+
+.flex{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10px;
+}
+
+.style_radio{
+	margin: 10px 0;
+}
+
+.l_text{
+	color: #A7BEC7;
+	font-family: Tahoma;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.f_left, .f_right{
+	padding: 10px 90px 10px 15px;
+	border-radius: 10px;
+	border: 1px solid lightgrey;
+}
+
+.copies{
+	margin-top: 30px;
+}
+
+.copies_input{
+	width: 60px;
+}
+
+.btn_total{
+	width: 100%;
+	margin-top: 20px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.output{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+#out_area{
+	border-radius: 10px;
+	padding: 5px;
+	resize: none;
+	overflow: auto;
+}
+
