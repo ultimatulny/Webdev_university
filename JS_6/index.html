@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>JS_lab</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div class="main">
+		<form name="mymass">
+		<div class="create">
+			<span class="text">Число элементов массива</span>
+			<input type="text" name="kolvo" class="mini">
+			<input type="button" class="btn" value="Создать массив" onclick="create();">
+		</div>
+		<div class="look_mass">
+			<span class="text">Исходный массив</span><br>
+			<input type="text" name="massive" class="max" id="output_current" disabled>
+		</div>
+		<div class="flex topmargin">
+			<div class="left">
+				<fieldset class="field">
+					<legend>Определить</legend>
+					<div class="line">
+						<div class="txt">
+							<input type="checkbox" name="min_el_check" id="min_el_check">
+							<span class="text">Минимальный элемент</span>
+						</div>
+						<input type="text" id="min_el_box" class="mini" disabled>
+					</div>
+					<br>
+					<div class="line">
+						<div class="txt">
+							<input type="checkbox" name="max_el_check" id="max_el_check">
+							<span class="text">Максимальный элемент</span>
+						</div>
+						<input type="text" id="max_el_box" class="mini" disabled>
+					</div>
+					<br>
+					<div class="line">
+						<div class="txt">
+							<input type="checkbox" name="sum_el_check" id="sum_el_check">
+							<span class="text">Сумма элементов</span>
+						</div>
+						<input type="text" id="sum_el_box" class="mini" disabled>
+					</div>
+					<br>
+					<div class="line">
+						<div class="txt">
+							<input type="checkbox" name="otric_el_check" id="otric_el_check">
+							<span class="text">Число отрицательных</span>
+						</div>
+						<input type="text" id="otric_el_box" class="mini" disabled>
+					</div>
+					<br>
+					<div class="line">
+						<div class="txt">
+							<input type="checkbox" name="neotric_el_check" id="neotric_el_check">
+							<span class="text">Число не отрицательных</span>
+						</div>
+						<input type="text" id="neotric_el_box" class="mini" disabled>
+					</div>
+				</fieldset>
+			</div>
+			<div class="right">
+				<fieldset class="field">
+					<legend>Сортировать</legend>
+					<input type="radio" name="sort" value="1" checked> <span class="text">По возрастанию</span><br><br>
+					<input type="radio" name="sort" value="2"> <span class="text">По убыванию</span><br><br>
+					<input type="radio" name="sort" value="3"> <span class="text">Без сортировки</span>
+				</fieldset>
+			</div>
+		</div>
+		<br>
+		<div class="look_mass">
+			<span class="text">Отсортированный массив</span><br>
+			<input type="text" name="massive" class="max" id="outmass">
+		</div>
+		<div class="center">
+			<input type="button" value="Вычислить" onclick="sortmass();" class="button">
+		</div>
+		</form>
+	</div>
+</body>
+</html>
