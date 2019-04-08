@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>JS_5</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js"></script>
+</head>
+<body>
+
+	<div class="main">
+		<h1>Валютный калькулятор</h1>
+		<form name="bank" class="first">
+			<div class="area">
+				<div class="flex">
+					<h2>Из</h2>
+					<div class="empty"></div>
+					<select name="from" id="fst">
+						<option value="Рубли">Рубли</option>
+						<option value="Евро">Евро</option>
+						<option value="Доллар">Доллар</option>
+						<option value="Фунт стерлингов">Фунт стерлингов</option>
+						<option value="Японская иена">Японская иена</option>
+						<option value="Китайский юань">Китайский юань</option>
+						<option value="Украинская гривна">Украинская гривна</option>
+					</select>
+				</div>
+				<div class="flex">
+					<h2>Курс</h2>
+					<div class="empty"></div>
+					<input type="text" name="curs" id="input1" onkeyup="check();">
+				</div>
+			</div>
+			<div class="area">
+				<div class="flex">
+					<h2>В</h2>
+					<div class="empty"></div>
+					<select name="in">
+						<option value="Рубли">Рубли</option>
+						<option value="Евро">Евро</option>
+						<option value="Доллар">Доллар</option>
+						<option value="Фунт стерлингов">Фунт стерлингов</option>
+						<option value="Японская иена">Японская иена</option>
+						<option value="Китайский юань">Китайский юань</option>
+						<option value="Украинская гривна">Украинская гривна</option>
+					</select>
+				</div>
+				<div class="flex">
+					<h3>Переводимая сумма</h3>&nbsp;
+					<input type="text" name="summa" id="input2" onkeyup="check();">
+				</div>
+			</div>
+			<div class="output">
+				<div class="centext"><h4>Результат:</h4></div>
+				<textarea name="output" id="output" cols="50" rows="5" disabled></textarea>
+			</div>
+
+			<div class="btns">
+				<input id="fq" type="button" value="Посчитать" onclick="go()" class="btn" disabled="disabled" >
+				<input type="reset" value="Очистить" onclick="reset()" class="btn">
+			</div>
+		</form>
+	</div>
+		
+</body>
+</html>

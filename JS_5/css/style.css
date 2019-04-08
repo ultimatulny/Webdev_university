@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+html, body{
+	height: 100%;
+}
+
+body{
+	background-color: #EDEEF0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main{
+	width: 700px;
+	height: 400px;
+	background: white;
+	border-radius: 10px;
+	padding: 10px;
+	-webkit-box-shadow: 0px 0px 24px 1px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 0px 24px 1px rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 24px 1px rgba(0,0,0,0.3);
+}
+
+h1{
+	font-family: Arial;
+	font-size: 36px;
+	color: lightgrey;
+	color: #444444;
+	color: transparent;
+	background: #666666;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+}
+
+h2{
+	font-family: Arial;
+	font-size: 25px;
+	color: grey;
+}
+
+h3{
+	font-family: Arial;
+	font-size: 15px;
+	color: grey;
+}
+
+h4{
+	font-family: Arial;
+	font-size: 25px;
+	color: grey;
+}
+
+.area{
+	padding: 0 50px 0 50px;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-between;
+	width: 280px;
+}
+
+.empty{
+	width: 30px;
+}
+
+.centext{
+	display: flex;
+	align-items: center;
+}
+
+.output{
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 80px;
+}
+
+#output{
+	border-radius: 10px;
+	padding: 5px;
+	resize: none;
+	overflow: auto;
+
+}
+
+.btns{
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.btn{
+	height: 40px;
+	width: 150px;
+	font-family: Arial;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+input, select, #output{
+	outline: 0;
+    outline-offset: 0;
+}
