@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lab4</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="main">
+		<h1>Сделайте заказ</h1>
+
+		<div id="image"></div>
+
+		<form name="myform" class="form_pizza">
+			<input type="checkbox" name="food" value="0" onclick="foodprice()"> Фаршированная форель<br>
+			<input type="checkbox" name="food" value="1" onclick="foodprice()"> Телятина под соусом <br>
+			<input type="checkbox" name="food" value="2" onclick="foodprice()"> Крем-суп из шампиньонов <br>
+			<input type="checkbox" name="food" value="3" onclick="foodprice()"> Рулет со шпинатом <br>
+			<input type="checkbox" name="food" value="4" onclick="foodprice()"> Пицца Гавайская <br>
+			<input type="checkbox" name="food" value="5" onclick="foodprice()"> Ванильный коктейль <br>
+			<input type="checkbox" name="food" value="6" onclick="foodprice()"> Напиток грейпфрут <br>
+
+			<div class="flex">
+				<p>Счет:</p>
+				<textarea name="output" id="output" cols="30" rows="3" placeholder="0" disabled></textarea>
+			</div>
+			<div class="center">
+				<input type="button" value="Заказать" onclick="go()" class="btn">
+				<input type="reset" value="Сбросить" onclick="reload()" class="btn">
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>

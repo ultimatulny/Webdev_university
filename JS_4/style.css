@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+html,body{
+	height: 100%;
+}
+
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.main{
+	font-family: Arial;
+	font-size: 16px;
+	width: 500px;
+	height: 320px;
+	background: lightgrey;
+	border: 1px solid grey;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.main h1{
+	text-align: center;
+}
+
+.form_pizza input{
+	margin: 5px 0;
+}
+
+.flex{
+	display: flex;
+}
+
+.center{
+	display: flex;
+	justify-content: center;
+}
+
+#image{
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	background: no-repeat;
+	background-size: 100%;
+	float: right;
+}
+
+#output{
+	border-radius: 10px;
+	padding: 5px;
+	resize: none;
+	overflow: auto;
+}
+
+.btn{
+	height: 40px;
+	width: 100px;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: bold;
+}
