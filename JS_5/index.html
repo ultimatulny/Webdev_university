@@ -10,6 +10,7 @@
 
 	<div class="main">
 		<h1>Валютный калькулятор</h1>
+		<span class="actual">Курс валют на: 15.04.2019 8:00 PM</span>
 		<form name="bank" class="first">
 			<div class="area">
 				<div class="flex">
@@ -28,7 +29,7 @@
 				<div class="flex">
 					<h2>Курс</h2>
 					<div class="empty"></div>
-					<input type="text" name="curs" id="input1" onkeyup="check();">
+					<input type="text" name="curs" id="input1" disabled="disabled">
 				</div>
 			</div>
 			<div class="area">
@@ -57,7 +58,7 @@
 
 			<div class="btns">
 				<input id="fq" type="button" value="Посчитать" onclick="go()" class="btn" disabled="disabled" >
-				<input type="reset" value="Очистить" onclick="reset()" class="btn">
+				<input type="reset" value="Очистить" onclick="res()" class="btn">
 			</div>
 		</form>
 	</div>

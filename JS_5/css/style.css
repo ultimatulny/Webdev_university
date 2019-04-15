@@ -17,7 +17,7 @@ body{
 
 .main{
 	width: 700px;
-	height: 400px;
+	height: 430px;
 	background: white;
 	border-radius: 10px;
 	padding: 10px;
@@ -111,4 +111,10 @@ h4{
 input, select, #output{
 	outline: 0;
     outline-offset: 0;
+}
+
+.actual{
+	font-family: Arial;
+	font-size: 10px;
+	color: black;
 }
