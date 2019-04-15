@@ -1,6 +1,23 @@
 var kolvo;
 
 function create(){
+	document.getElementById("min_el_box").value = " ";
+	document.getElementById('min_el_check').checked = false;
+
+	document.getElementById("max_el_box").value = " ";
+	document.getElementById('max_el_check').checked = false;
+
+	document.getElementById("sum_el_box").value = " ";
+	document.getElementById('sum_el_check').checked = false;
+
+	document.getElementById("otric_el_box").value = " ";
+	document.getElementById('otric_el_check').checked = false;
+
+	document.getElementById("neotric_el_box").value = " ";
+	document.getElementById('neotric_el_check').checked = false;
+
+	document.getElementById("outmass").value = " ";
+
 	var flag = false;
     kolvo = mymass.kolvo.value; // Кол-во элементов в новом массиве
 
